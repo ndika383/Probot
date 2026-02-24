@@ -1,0 +1,19 @@
+{
+  "name": "probot-productivity-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered Personal Productivity Assistant using Gemini API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
